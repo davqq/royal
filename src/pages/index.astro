@@ -9,13 +9,70 @@ import "../styles/global.css";
   title="Royal Unternehmensgruppe"
 >
   <main
-    class="flex animate-fade-down flex-col items-center justify-center pt-32 duration-1000 md:pt-64"
+    class="z-10 flex flex-col items-center justify-center pt-24 duration-1000"
   >
-    <section class="flex w-full flex-col items-center justify-center">
-      <h1 class="-z-10 text-center text-[20rem] text-gray-800 opacity-40">
-        ROYAL
-      </h1>
-      <h3 class="text-4xl underline"> In die Zukunft investieren</h3>
+    <section
+      class="-z-20 flex w-full flex-col items-center justify-center bg-black pb-10"
+    >
+      <div class="flex max-w-6xl flex-col items-center justify-center">
+        <h1
+          class="text-primary -z-10 text-center opacity-20 md:ml-60 md:text-[20rem]"
+        >
+          ROYAL
+        </h1>
+        <h2
+          class="decoration-primary -mt-80 text-9xl text-white underline decoration-from-font underline-offset-[20px]"
+        >
+          In die Zukunft investieren</h2
+        >
+      </div>
+    </section>
+
+    <div class="relative h-[45rem] w-full overflow-hidden">
+      <div class="parallax -z-10">
+        <img
+          src="mockup.png"
+          alt="Bildbeschreibung"
+          class="w-full object-cover duration-1000"
+          id="parallaxImage"
+        />
+      </div>
+    </div>
+
+    <section
+      class="mb-64 flex flex-col items-center pt-24 text-black duration-1000"
+    >
+      <div class="flex max-w-6xl flex-col">
+        <p class="text-primary text-xl"> Royal Unternehmensgruppe</p>
+        <h2 class="text-4xl">Wir sind ihr zuverlässiger Partner</h2>
+
+        <div class="grid grid-cols-3 pt-10">
+          <div class="bg-primary flex h-[24rem] w-[24rem] flex-col">
+            <p class="ml-10 mt-10 text-xl text-white">Immobilien</p>
+            <h2 class="ml-10 mt-24 text-4xl text-white">Immobilien</h2>
+          </div>
+          <div class="flex h-[24rem] w-[24rem] flex-col bg-[#191919]">
+            <p class="ml-10 mt-10 text-xl text-white">Immobilien</p>
+            <h2 class="ml-10 mt-24 text-4xl text-white">Immobilien</h2>
+          </div>
+          <div class="bg-primary flex h-[24rem] w-[24rem] flex-col">
+            <p class="ml-10 mt-10 text-xl text-white">Immobilien</p>
+            <h2 class="ml-10 mt-24 text-4xl text-white">Immobilien</h2>
+          </div>
+          <div class="flex h-[24rem] w-[24rem] flex-col bg-[#191919]">
+            <p class="ml-10 mt-10 text-xl text-white">Immobilien</p>
+            <h2 class="ml-10 mt-24 text-4xl text-white">Immobilien</h2>
+          </div>
+          <div class="bg-primary flex h-[24rem] w-[24rem] flex-col">
+            <p class="ml-10 mt-10 text-xl text-white">Immobilien</p>
+            <h2 class="ml-10 mt-24 text-4xl text-white">Immobilien</h2>
+          </div>
+          <div class="flex h-[24rem] w-[24rem] flex-col bg-[#191919]">
+            <p class="ml-10 mt-10 text-xl text-white">Immobilien</p>
+            <h2 class="ml-10 mt-24 text-4xl text-white">Immobilien</h2>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </Layout>
