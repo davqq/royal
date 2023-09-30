@@ -3,19 +3,18 @@
 ---
 
 <header
-  class="fixed z-50 flex w-full animate-fade justify-center bg-black px-10 pb-4 pt-5 duration-1000 md:px-20"
+  class="fixed z-50 flex w-full animate-fade bg-black px-10 pb-4 pt-5 duration-1000 md:px-20"
   id="header"
 >
-  <div class="flex w-full max-w-6xl items-center justify-between">
-    <img
-      src="royal logo.png"
-      class="h-20 opacity-60 duration-300 hover:opacity-100"
-    />
+  <div class="flex w-full items-center justify-between">
+    <a href="/">
+      <img
+        src="royal logo.png"
+        class="h-20 opacity-60 duration-300 hover:opacity-100"
+      />
+    </a>
 
-    <nav
-      class="hidden md:flex"
-      id="navbar"
-    >
+    <nav id="navbar">
       <ul class="flex">
         <li class="mr-5">
           <a
@@ -33,7 +32,7 @@
             About
           </a>
         </li>
-        <li class="mr-5">
+        <li>
           <a
             class="decoration-from-font opacity-60 transition-opacity duration-300 hover:opacity-100"
             href="#projects"

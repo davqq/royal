@@ -1,6 +1,7 @@
 ---
 import Header from "../navigation/header.astro";
 import Footer from "../navigation/footer.astro";
+import { ViewTransitions } from "astro:transitions";
 
 export interface Props {
   title: string;
@@ -30,11 +31,12 @@ const { title, header, footer } = Astro.props;
       name="generator"
       content={Astro.generator}
     />
+    <ViewTransitions />
     <title>{title}</title>
   </head>
   <body>
     {header && <Header />}
     <slot />
     {footer && <Footer />}
-  </body>
-</html>
+  </body></html
+>
