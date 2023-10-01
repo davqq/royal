@@ -35,6 +35,9 @@ const { title, header, footer } = Astro.props;
     <title>{title}</title>
   </head>
   <body>
+    <script>
+      import "../../libs/smoothScrollNavbar.ts";
+    </script>
     {header && <Header />}
     <slot />
     {footer && <Footer />}
