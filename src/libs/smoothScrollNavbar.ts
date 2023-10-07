@@ -14,18 +14,9 @@ function scroll() {
         const targetElement = document.getElementById(targetId || "");
         const header = document.getElementById("header");
 
-        // set achors text color to active and remove it from all other anchors
-        // document.querySelectorAll('a[href^="#"]').forEach((anchor2) => {
-        //   if (anchor2 instanceof HTMLAnchorElement) {
-        //     anchor2.style.opacity = "0.6";
-        //   }
-        // });
-
-        // anchor.style.opacity = "1";
-
         if (targetElement !== null && header instanceof HTMLElement) {
           window.scrollTo({
-            top: targetElement.offsetTop - header.offsetHeight,
+            top: targetElement.offsetTop - header.offsetHeight + 1,
             behavior: "smooth",
           });
         }

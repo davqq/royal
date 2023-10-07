@@ -1,7 +1,7 @@
 @import "./tinos.css";
 
 html {
-  @apply text-[3.2663vw] sm:text-[2.2097vw] lg:text-[1.2208333333vw];
+  @apply text-[3.9663vw] sm:text-[2.2097vw] lg:text-[1.2208333333vw];
 }
 
 body {
