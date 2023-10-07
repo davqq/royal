@@ -7,3 +7,7 @@ html {
 body {
   @apply font-tinos-regular text-white selection:bg-gray-600 selection:bg-opacity-50;
 }
+
+#horseBackground {
+  background-image: url("pferd.png");
+}
